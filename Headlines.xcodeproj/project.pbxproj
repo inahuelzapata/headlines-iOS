@@ -10,6 +10,18 @@
 		05859035133DF872C4F9775C /* Pods_HeadlinesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA7D61C153D8B95DB9A361C /* Pods_HeadlinesTests.framework */; };
 		08997FABEA8931BE95F4D46A /* Pods_Canillitapp_Widget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3844BADA0445D4FFEA53F73 /* Pods_Canillitapp_Widget.framework */; };
 		133B125AD494C219DB3B0255 /* Pods_Canillitapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E364D941A8F5CACBFF8FD34 /* Pods_Canillitapp.framework */; };
+		2A8D2FAB22DACCC6008EC07F /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8D2FAA22DACCC6008EC07F /* Header.swift */; };
+		2A8D2FAC22DACCC8008EC07F /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8D2FAA22DACCC6008EC07F /* Header.swift */; };
+		2A8D2FAD22DACCC9008EC07F /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8D2FAA22DACCC6008EC07F /* Header.swift */; };
+		2A8D2FAF22DACDD1008EC07F /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8D2FAE22DACDD1008EC07F /* ContentType.swift */; };
+		2A8D2FB022DACDD1008EC07F /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8D2FAE22DACDD1008EC07F /* ContentType.swift */; };
+		2A8D2FB122DACDD1008EC07F /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8D2FAE22DACDD1008EC07F /* ContentType.swift */; };
+		2AEA762622DAB9F600E443E6 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA762522DAB9F600E443E6 /* HTTPRequest.swift */; };
+		2AEA762822DABBED00E443E6 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA762722DABBED00E443E6 /* HTTPMethod.swift */; };
+		2AEA762922DABC9E00E443E6 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA762722DABBED00E443E6 /* HTTPMethod.swift */; };
+		2AEA762A22DABC9F00E443E6 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA762722DABBED00E443E6 /* HTTPMethod.swift */; };
+		2AEA762B22DABCA200E443E6 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA762522DAB9F600E443E6 /* HTTPRequest.swift */; };
+		2AEA762C22DABCA400E443E6 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA762522DAB9F600E443E6 /* HTTPRequest.swift */; };
 		43CC643D1EBBE7E90066D49E /* OrientationAwareControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CC643C1EBBE7E90066D49E /* OrientationAwareControllers.swift */; };
 		43CC643E1EBBE7E90066D49E /* OrientationAwareControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CC643C1EBBE7E90066D49E /* OrientationAwareControllers.swift */; };
 		43CC643F1EBBE7E90066D49E /* OrientationAwareControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CC643C1EBBE7E90066D49E /* OrientationAwareControllers.swift */; };
@@ -303,6 +315,10 @@
 		0DF05652C0E59CFCA3F26160 /* Pods-Watch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watch Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Watch Extension/Pods-Watch Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		1B88713190516178E6891750 /* Pods-HeadlinesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadlinesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeadlinesTests/Pods-HeadlinesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1E364D941A8F5CACBFF8FD34 /* Pods_Canillitapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Canillitapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8D2FAA22DACCC6008EC07F /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		2A8D2FAE22DACDD1008EC07F /* ContentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentType.swift; sourceTree = "<group>"; };
+		2AEA762522DAB9F600E443E6 /* HTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		2AEA762722DABBED00E443E6 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		43CC643C1EBBE7E90066D49E /* OrientationAwareControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrientationAwareControllers.swift; sourceTree = "<group>"; };
 		5EA3242399336F7A8DE27E42 /* Pods-Watch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watch Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Watch Extension/Pods-Watch Extension.release.xcconfig"; sourceTree = "<group>"; };
 		67026FFD20FEE55300F67B90 /* GET-search-trending.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "GET-search-trending.json"; sourceTree = "<group>"; };
@@ -570,6 +586,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A8D2FA922DACCB9008EC07F /* components */ = {
+			isa = PBXGroup;
+			children = (
+				2A8D2FAA22DACCC6008EC07F /* Header.swift */,
+				2A8D2FAE22DACDD1008EC07F /* ContentType.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		670BA51F20573DEF00A225C7 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
@@ -875,10 +900,13 @@
 		6797F8A91EE4B38E00B8EAA5 /* services */ = {
 			isa = PBXGroup;
 			children = (
+				2A8D2FA922DACCB9008EC07F /* components */,
 				6797F8BE1EE4D7F700B8EAA5 /* mocks */,
 				6797F8AA1EE4B38E00B8EAA5 /* HTTPService.swift */,
 				6797F8BB1EE4D17E00B8EAA5 /* MockService.swift */,
 				6797F8AB1EE4B38E00B8EAA5 /* NewsService.swift */,
+				2AEA762522DAB9F600E443E6 /* HTTPRequest.swift */,
+				2AEA762722DABBED00E443E6 /* HTTPMethod.swift */,
 			);
 			path = services;
 			sourceTree = "<group>";
@@ -1623,10 +1651,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A8D2FAC22DACCC8008EC07F /* Header.swift in Sources */,
 				677AE3461D6E7D0E00CD710D /* NewsInterfaceController.swift in Sources */,
 				6797F8B31EE4B38E00B8EAA5 /* Topic.swift in Sources */,
 				677CE7392259466E008D6BBB /* Throwable.swift in Sources */,
 				FBBDCC6F20F2C59E00757861 /* TrendingTerm.swift in Sources */,
+				2A8D2FB022DACDD1008EC07F /* ContentType.swift in Sources */,
 				67C3CD3D1D6D1876003CC04E /* TrendingInterfaceController.swift in Sources */,
 				6719DA731D6D143E00D1E214 /* ExtensionDelegate.swift in Sources */,
 				67C3CD3F1D6D1A68003CC04E /* TrendingRowController.swift in Sources */,
@@ -1635,8 +1665,10 @@
 				677CE73522593E3B008D6BBB /* TopicList.swift in Sources */,
 				677AE3481D6E7FE900CD710D /* NewsRowController.swift in Sources */,
 				6797F8B11EE4B38E00B8EAA5 /* Reaction.swift in Sources */,
+				2AEA762922DABC9E00E443E6 /* HTTPMethod.swift in Sources */,
 				FB9F586C20FA34970028C1DF /* Tag.swift in Sources */,
 				6797F8B51EE4B38E00B8EAA5 /* HTTPService.swift in Sources */,
+				2AEA762B22DABCA200E443E6 /* HTTPRequest.swift in Sources */,
 				6797F8AD1EE4B38E00B8EAA5 /* ConfigHelper.swift in Sources */,
 				6797F8B71EE4B38E00B8EAA5 /* NewsService.swift in Sources */,
 			);
@@ -1672,8 +1704,10 @@
 				6757C3071F4BD8FF0007C17F /* NewsTableViewControllerDataSource.swift in Sources */,
 				6797F8B61EE4B38E00B8EAA5 /* NewsService.swift in Sources */,
 				6797F8B21EE4B38E00B8EAA5 /* Topic.swift in Sources */,
+				2A8D2FAB22DACCC6008EC07F /* Header.swift in Sources */,
 				6757C30A1F4BDA620007C17F /* RecentNewsDataSource.swift in Sources */,
 				67C799C121BCA3F200E1EC72 /* TopicHeaderView.swift in Sources */,
+				2AEA762822DABBED00E443E6 /* HTTPMethod.swift in Sources */,
 				6745645A2048739E004A7F71 /* ShareCanillitapActivity.swift in Sources */,
 				67908D402269890800B8CAB8 /* NewsTableViewController+Tabbed.swift in Sources */,
 				6730A42A2198DA26003FB180 /* LabelCollectionViewCell.swift in Sources */,
@@ -1711,6 +1745,7 @@
 				670D6D081FB3E098003B5B33 /* ScreenSwitcherViewController.swift in Sources */,
 				674E7D0320E1CF9C007A8337 /* CategoryNewsDataSource.swift in Sources */,
 				67BC0913204B35D400796B8B /* NewsPreviewViewController.swift in Sources */,
+				2A8D2FAF22DACDD1008EC07F /* ContentType.swift in Sources */,
 				6767C59D204A4F6F00D909E1 /* FilterSourcesDataSource.swift in Sources */,
 				6757E984201ACCF2002AC331 /* UsersService.swift in Sources */,
 				67E10AD01F6385FE009F017C /* FilterViewController.swift in Sources */,
@@ -1738,6 +1773,7 @@
 				67B4CF3120ABBC5B00B8E391 /* ContentViewsService.swift in Sources */,
 				674E7CE720E07FBF007A8337 /* CategoriesContainerViewModel.swift in Sources */,
 				6730A4262198CBC5003FB180 /* SectionLabelHeaderCollectionReusableView.swift in Sources */,
+				2AEA762622DAB9F600E443E6 /* HTTPRequest.swift in Sources */,
 				674E7CEF20E085A1007A8337 /* NewsFooterView.swift in Sources */,
 				6757E982201AC9FE002AC331 /* SettingsViewController.swift in Sources */,
 			);
@@ -1782,8 +1818,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A8D2FAD22DACCC9008EC07F /* Header.swift in Sources */,
 				FBBDCC7020F2C59E00757861 /* TrendingTerm.swift in Sources */,
 				67BA65C71FCB65B400411A06 /* TodayViewController.swift in Sources */,
+				2AEA762A22DABC9F00E443E6 /* HTTPMethod.swift in Sources */,
 				671513161FCB6C1500D4638F /* Reaction.swift in Sources */,
 				6715131B1FCB6C2E00D4638F /* NewsService.swift in Sources */,
 				6715131A1FCB6C2C00D4638F /* MockService.swift in Sources */,
@@ -1793,8 +1831,10 @@
 				671513191FCB6C2800D4638F /* HTTPService.swift in Sources */,
 				671513181FCB6C1C00D4638F /* ConfigHelper.swift in Sources */,
 				671513151FCB6C1200D4638F /* Topic.swift in Sources */,
+				2AEA762C22DABCA400E443E6 /* HTTPRequest.swift in Sources */,
 				677CE73A2259466E008D6BBB /* Throwable.swift in Sources */,
 				673880B21FD21896001005FF /* TodayViewModel.swift in Sources */,
+				2A8D2FB122DACDD1008EC07F /* ContentType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
