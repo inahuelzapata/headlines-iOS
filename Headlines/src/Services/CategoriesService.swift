@@ -39,6 +39,6 @@ class CategoriesService: HTTPService {
             return
         }
 
-        _ = request(method: .GET, path: "categories/", params: nil, success: successBlock, fail: failBlock)
+        _ = request(method: .get, path: "categories/", params: nil, success: successBlock, fail: failBlock)
     }
 }

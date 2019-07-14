@@ -36,7 +36,7 @@ class NewsService: HTTPService {
         }
 
         let path = "news/category/\(categoryId)?page=\(page)"
-        _ = request(method: .GET, path: path, params: nil, success: successBlock, fail: failBlock)
+        _ = request(method: .get, path: path, params: nil, success: successBlock, fail: failBlock)
     }
 
     func requestPopularNews (page: Int = 1,
@@ -70,7 +70,7 @@ class NewsService: HTTPService {
         }
 
         let path = "popular?page=\(page)"
-        _ = request(method: .GET, path: path, params: nil, success: successBlock, fail: failBlock)
+        _ = request(method: .get, path: path, params: nil, success: successBlock, fail: failBlock)
     }
 
     func requestRecentNewsWithDate (_ date: Date,
@@ -108,7 +108,7 @@ class NewsService: HTTPService {
             return
         }
 
-        _ = request(method: .GET, path: "latest/\(datePath)", params: nil, success: successBlock, fail: failBlock)
+        _ = request(method: .get, path: "latest/\(datePath)", params: nil, success: successBlock, fail: failBlock)
     }
 
     func requestTrendingTopicsWithDate (_ date: Date,
@@ -147,7 +147,7 @@ class NewsService: HTTPService {
             return nil
         }
 
-        return request(method: .GET,
+        return request(method: .get,
                        path: "trending/\(datePath)/\(count)",
                        params: nil,
                        success: successBlock,
@@ -216,7 +216,7 @@ class NewsService: HTTPService {
 
         group.wait()
         return self.request(
-                        method: .GET,
+                        method: .get,
                         path: "search/\(encodedText)",
                         params: nil,
                         headers: headers,
@@ -255,7 +255,7 @@ class NewsService: HTTPService {
         }
 
         _ = request(
-            method: .GET,
+            method: .get,
             path: "search/trending/",
             params: nil,
             success: successBlock,
@@ -292,7 +292,7 @@ class NewsService: HTTPService {
 
         let encodedTag = tag.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) ?? String()
         return request(
-            method: .GET,
+            method: .get,
             path: "tags/\(encodedTag)",
             params: nil,
             success: successBlock,

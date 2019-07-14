@@ -50,7 +50,7 @@ class UsersService: HTTPService {
             ]
 
             _ = self.request(
-                method: .POST,
+                method: .post,
                 path: "users/devicetoken",
                 params: params,
                 success: successBlock,

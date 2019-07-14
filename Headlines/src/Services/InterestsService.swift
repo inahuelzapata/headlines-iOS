@@ -60,7 +60,7 @@ class InterestsService: HTTPService {
                 return
             }
 
-            _ = self.request(method: .GET,
+            _ = self.request(method: .get,
                              path: "interests/\(userId.recordName)/iOS",
                 params: nil,
                 success: successBlock,

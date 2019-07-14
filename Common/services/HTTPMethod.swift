@@ -9,25 +9,25 @@
 import Foundation
 
 enum HTTPMethod {
-    case DELETE
-    case GET
-    case POST
-    case PUT
+    case delete
+    case get
+    case post
+    case put
 }
 
 extension HTTPMethod {
     var method: String {
         switch self {
-        case .DELETE:
+        case .delete:
             return "DELETE"
 
-        case .GET:
+        case .get:
             return "GET"
 
-        case .POST:
+        case .post:
             return "POST"
 
-        case .PUT:
+        case .put:
             return "PUT"
         }
     }

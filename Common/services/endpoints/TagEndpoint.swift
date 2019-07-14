@@ -1,5 +1,5 @@
 //
-//  NewsEndpoint.swift
+//  TagEndpoint.swift
 //  Headlines
 //
 //  Created by Nahuel Zapata on 7/14/19.
@@ -8,20 +8,22 @@
 
 import Foundation
 
-enum NewsEndpoint: Endpoint {
-    case withCategory(categoryID: String, page: Int)
+enum TagEndpoint: Endpoint {
+    case tag(tag: String)
 
     var httpMethod: HTTPMethod {
         switch self {
-        case .withCategory:
+        case .tag:
             return .get
         }
     }
 
     var urlPath: String {
         switch self {
-        case .withCategory(let categoryID, let page):
-            return "/news/category/\(categoryID)?page=\(page)"
+        case .tag(let tag):
+            let encodedTag = tag.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) ?? String()
+
+            return "/tags/\(encodedTag)"
         }
     }
 }

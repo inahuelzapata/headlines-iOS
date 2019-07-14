@@ -30,7 +30,7 @@ class HTTPService {
         var request = URLRequest(url: url!)
 
         switch method {
-        case .POST:
+        case .post:
             request.httpMethod = "POST"
         default:
             break

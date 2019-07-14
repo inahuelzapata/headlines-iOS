@@ -61,7 +61,7 @@ class ReactionsService: HTTPService {
                 "user_id": userId.recordName
             ]
 
-            _ = self.request(method: .POST,
+            _ = self.request(method: .post,
                              path: "reactions/\(postId)",
                              params: params,
                              success: successBlock,
@@ -119,7 +119,7 @@ class ReactionsService: HTTPService {
                 return
             }
 
-            _ = self.request(method: .GET,
+            _ = self.request(method: .get,
                              path: "reactions/\(userId.recordName)/iOS",
                              params: nil,
                              success: successBlock,

@@ -55,7 +55,7 @@ class ContentViewsService: HTTPService {
                 "context_from": context.rawValue
                 ]
 
-            _ = self.request(method: .POST,
+            _ = self.request(method: .post,
                              path: "content-views/",
                              params: params,
                              success: successBlock,
