@@ -23,27 +23,3 @@ struct HTTPRequest: HTTPRequestable {
 
     var headers: [Header]
 }
-
-protocol Endpoint {
-    var httpMethod: HTTPMethod { get }
-
-    var baseURL: String { get }
-
-    var urlPath: String { get }
-
-    var builtURL: String { get }
-}
-
-extension Endpoint {
-    var baseURL: String {
-        guard let url = ConfigHelper.configForKey("base_url") as? String else {
-            return "http://api.canillitapp.com"
-        }
-
-        return url
-    }
-
-    var builtURL: String {
-        return baseURL + urlPath
-    }
-}

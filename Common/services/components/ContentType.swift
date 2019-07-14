@@ -21,7 +21,7 @@ enum ContentType {
         case .imageJPEG:
             return "image/jpeg"
 
-        case .applicationJavaScript
+        case .applicationJavaScript:
             return "application/javascript"
         }
     }
